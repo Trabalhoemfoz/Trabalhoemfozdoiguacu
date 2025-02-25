@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+    display: flex;
+    gap: 2em;
+}
+
+section {
+    flex: 1;
+}
+
+aside {
+    width: 250px;
+    padding: 1em;
+    background-color: #f4f4f4;
+}
+
+footer {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    width: 100%;
+}
+
+form button {
+    padding: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#paginacion nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#paginacion nav ul li a {
+    text-decoration: none;
+}
+
+/* Diseño de categorías */
+aside h3 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
